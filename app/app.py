@@ -13,14 +13,19 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
-VERSIONS = [
-    "postgres_9.6",
-    "postgres_10",
-    "postgres_11",
-    "postgres_12",
-    "postgres_13",
-    "postgres_14",
-]
+def get_postgresql_versions():
+    """
+    Get available PostgreSQL versions from the help_files directory.
+
+        Usage:
+            >>> get_postgresql_versions()
+            ['postgres_9.6', 'postgres_10', ...]
+
+    :return: List of available PostgreSQL versions, e.g. ["postgres_9.6", "postgres_10", ...].
+    """
+    help_files_dir = "help_files"
+    directories = [d.name for d in os.scandir(help_files_dir) if d.is_dir() and d.name.startswith("postgres_")]
+    return sorted(directories, key=lambda x: float(x.split('_')[1]))
 
 
 @app.route("/")
@@ -30,7 +35,8 @@ def index():
 
     :return: Rendered HTML template for the index page.
     """
-    return render_template("index.html", versions=VERSIONS)
+    versions = get_postgresql_versions()
+    return render_template("index.html", versions=versions)
 
 
 @app.route("/compare", methods=["POST"])
