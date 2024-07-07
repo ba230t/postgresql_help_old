@@ -1,0 +1,5 @@
+Command:     SAVEPOINT
+Description: define a new savepoint within the current transaction
+Syntax:
+SAVEPOINT savepoint_name
+

@@ -1,0 +1,5 @@
+Command:     DROP ROLE
+Description: remove a database role
+Syntax:
+DROP ROLE [ IF EXISTS ] name [, ...]
+

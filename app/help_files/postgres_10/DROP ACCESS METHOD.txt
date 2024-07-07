@@ -1,0 +1,5 @@
+Command:     DROP ACCESS METHOD
+Description: remove an access method
+Syntax:
+DROP ACCESS METHOD [ IF EXISTS ] name [ CASCADE | RESTRICT ]
+

@@ -1,0 +1,5 @@
+Command:     ANALYZE
+Description: collect statistics about a database
+Syntax:
+ANALYZE [ VERBOSE ] [ table_name [ ( column_name [, ...] ) ] ]
+

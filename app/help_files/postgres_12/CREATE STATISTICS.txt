@@ -1,0 +1,10 @@
+Command:     CREATE STATISTICS
+Description: define extended statistics
+Syntax:
+CREATE STATISTICS [ IF NOT EXISTS ] statistics_name
+    [ ( statistics_kind [, ... ] ) ]
+    ON column_name, column_name [, ...]
+    FROM table_name
+
+URL: https://www.postgresql.org/docs/12/sql-createstatistics.html
+

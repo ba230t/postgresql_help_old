@@ -1,0 +1,6 @@
+Command:     DROP ROUTINE
+Description: remove a routine
+Syntax:
+DROP ROUTINE [ IF EXISTS ] name [ ( [ [ argmode ] [ argname ] argtype [, ...] ] ) ] [, ...]
+    [ CASCADE | RESTRICT ]
+

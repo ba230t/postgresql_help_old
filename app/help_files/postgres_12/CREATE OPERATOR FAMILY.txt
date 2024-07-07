@@ -1,0 +1,7 @@
+Command:     CREATE OPERATOR FAMILY
+Description: define a new operator family
+Syntax:
+CREATE OPERATOR FAMILY name USING index_method
+
+URL: https://www.postgresql.org/docs/12/sql-createopfamily.html
+

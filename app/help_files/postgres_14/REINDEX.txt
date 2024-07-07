@@ -1,0 +1,13 @@
+Command:     REINDEX
+Description: rebuild indexes
+Syntax:
+REINDEX [ ( option [, ...] ) ] { INDEX | TABLE | SCHEMA | DATABASE | SYSTEM } [ CONCURRENTLY ] name
+
+where option can be one of:
+
+    CONCURRENTLY [ boolean ]
+    TABLESPACE new_tablespace
+    VERBOSE [ boolean ]
+
+URL: https://www.postgresql.org/docs/14/sql-reindex.html
+

@@ -1,0 +1,5 @@
+Command:     UNLISTEN
+Description: stop listening for a notification
+Syntax:
+UNLISTEN { channel | * }
+

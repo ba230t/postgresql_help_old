@@ -1,0 +1,5 @@
+Command:     COMMIT PREPARED
+Description: commit a transaction that was earlier prepared for two-phase commit
+Syntax:
+COMMIT PREPARED transaction_id
+

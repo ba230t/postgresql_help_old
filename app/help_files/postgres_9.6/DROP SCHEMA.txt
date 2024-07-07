@@ -1,0 +1,5 @@
+Command:     DROP SCHEMA
+Description: remove a schema
+Syntax:
+DROP SCHEMA [ IF EXISTS ] name [, ...] [ CASCADE | RESTRICT ]
+

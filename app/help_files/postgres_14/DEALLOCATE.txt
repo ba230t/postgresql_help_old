@@ -1,0 +1,7 @@
+Command:     DEALLOCATE
+Description: deallocate a prepared statement
+Syntax:
+DEALLOCATE [ PREPARE ] { name | ALL }
+
+URL: https://www.postgresql.org/docs/14/sql-deallocate.html
+

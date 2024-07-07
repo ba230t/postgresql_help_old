@@ -1,0 +1,5 @@
+Command:     NOTIFY
+Description: generate a notification
+Syntax:
+NOTIFY channel [ , payload ]
+

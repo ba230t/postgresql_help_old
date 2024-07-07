@@ -1,0 +1,5 @@
+Command:     DROP TEXT SEARCH PARSER
+Description: remove a text search parser
+Syntax:
+DROP TEXT SEARCH PARSER [ IF EXISTS ] name [ CASCADE | RESTRICT ]
+

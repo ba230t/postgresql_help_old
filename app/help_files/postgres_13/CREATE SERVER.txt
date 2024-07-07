@@ -1,0 +1,9 @@
+Command:     CREATE SERVER
+Description: define a new foreign server
+Syntax:
+CREATE SERVER [ IF NOT EXISTS ] server_name [ TYPE 'server_type' ] [ VERSION 'server_version' ]
+    FOREIGN DATA WRAPPER fdw_name
+    [ OPTIONS ( option 'value' [, ... ] ) ]
+
+URL: https://www.postgresql.org/docs/13/sql-createserver.html
+

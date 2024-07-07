@@ -1,0 +1,6 @@
+Command:     DROP FUNCTION
+Description: remove a function
+Syntax:
+DROP FUNCTION [ IF EXISTS ] name [ ( [ [ argmode ] [ argname ] argtype [, ...] ] ) ] [, ...]
+    [ CASCADE | RESTRICT ]
+

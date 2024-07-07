@@ -1,0 +1,7 @@
+Command:     DROP TABLESPACE
+Description: remove a tablespace
+Syntax:
+DROP TABLESPACE [ IF EXISTS ] name
+
+URL: https://www.postgresql.org/docs/14/sql-droptablespace.html
+

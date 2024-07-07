@@ -1,0 +1,22 @@
+Command:     FETCH
+Description: retrieve rows from a query using a cursor
+Syntax:
+FETCH [ direction [ FROM | IN ] ] cursor_name
+
+where direction can be empty or one of:
+
+    NEXT
+    PRIOR
+    FIRST
+    LAST
+    ABSOLUTE count
+    RELATIVE count
+    count
+    ALL
+    FORWARD
+    FORWARD count
+    FORWARD ALL
+    BACKWARD
+    BACKWARD count
+    BACKWARD ALL
+

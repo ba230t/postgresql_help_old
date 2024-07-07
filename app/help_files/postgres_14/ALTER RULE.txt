@@ -1,0 +1,7 @@
+Command:     ALTER RULE
+Description: change the definition of a rule
+Syntax:
+ALTER RULE name ON table_name RENAME TO new_name
+
+URL: https://www.postgresql.org/docs/14/sql-alterrule.html
+

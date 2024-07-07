@@ -1,0 +1,8 @@
+Command:     ALTER TEXT SEARCH TEMPLATE
+Description: change the definition of a text search template
+Syntax:
+ALTER TEXT SEARCH TEMPLATE name RENAME TO new_name
+ALTER TEXT SEARCH TEMPLATE name SET SCHEMA new_schema
+
+URL: https://www.postgresql.org/docs/13/sql-altertstemplate.html
+

@@ -1,0 +1,8 @@
+Command:     DROP PROCEDURE
+Description: remove a procedure
+Syntax:
+DROP PROCEDURE [ IF EXISTS ] name [ ( [ [ argmode ] [ argname ] argtype [, ...] ] ) ] [, ...]
+    [ CASCADE | RESTRICT ]
+
+URL: https://www.postgresql.org/docs/13/sql-dropprocedure.html
+

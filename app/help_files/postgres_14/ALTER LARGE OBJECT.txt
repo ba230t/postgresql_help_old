@@ -1,0 +1,7 @@
+Command:     ALTER LARGE OBJECT
+Description: change the definition of a large object
+Syntax:
+ALTER LARGE OBJECT large_object_oid OWNER TO { new_owner | CURRENT_ROLE | CURRENT_USER | SESSION_USER }
+
+URL: https://www.postgresql.org/docs/14/sql-alterlargeobject.html
+

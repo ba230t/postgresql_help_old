@@ -1,0 +1,8 @@
+Command:     CREATE PUBLICATION
+Description: define a new publication
+Syntax:
+CREATE PUBLICATION name
+    [ FOR TABLE [ ONLY ] table_name [ * ] [, ...]
+      | FOR ALL TABLES ]
+    [ WITH ( publication_parameter [= value] [, ... ] ) ]
+

@@ -1,0 +1,7 @@
+Command:     CREATE USER MAPPING
+Description: define a new mapping of a user to a foreign server
+Syntax:
+CREATE USER MAPPING FOR { user_name | USER | CURRENT_USER | PUBLIC }
+    SERVER server_name
+    [ OPTIONS ( option 'value' [ , ... ] ) ]
+

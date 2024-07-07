@@ -1,0 +1,7 @@
+Command:     CALL
+Description: invoke a procedure
+Syntax:
+CALL name ( [ argument ] [, ...] )
+
+URL: https://www.postgresql.org/docs/13/sql-call.html
+

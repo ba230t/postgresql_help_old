@@ -1,0 +1,5 @@
+Command:     DROP MATERIALIZED VIEW
+Description: remove a materialized view
+Syntax:
+DROP MATERIALIZED VIEW [ IF EXISTS ] name [, ...] [ CASCADE | RESTRICT ]
+

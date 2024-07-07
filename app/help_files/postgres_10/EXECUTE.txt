@@ -1,0 +1,5 @@
+Command:     EXECUTE
+Description: execute a prepared statement
+Syntax:
+EXECUTE name [ ( parameter [, ...] ) ]
+

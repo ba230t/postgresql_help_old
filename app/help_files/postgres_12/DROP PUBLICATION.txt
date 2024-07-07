@@ -1,0 +1,7 @@
+Command:     DROP PUBLICATION
+Description: remove a publication
+Syntax:
+DROP PUBLICATION [ IF EXISTS ] name [, ...] [ CASCADE | RESTRICT ]
+
+URL: https://www.postgresql.org/docs/12/sql-droppublication.html
+

@@ -1,0 +1,5 @@
+Command:     DROP EVENT TRIGGER
+Description: remove an event trigger
+Syntax:
+DROP EVENT TRIGGER [ IF EXISTS ] name [ CASCADE | RESTRICT ]
+

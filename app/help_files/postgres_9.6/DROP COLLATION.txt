@@ -1,0 +1,5 @@
+Command:     DROP COLLATION
+Description: remove a collation
+Syntax:
+DROP COLLATION [ IF EXISTS ] name [ CASCADE | RESTRICT ]
+

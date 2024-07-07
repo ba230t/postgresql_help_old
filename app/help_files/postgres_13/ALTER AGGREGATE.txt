@@ -1,0 +1,16 @@
+Command:     ALTER AGGREGATE
+Description: change the definition of an aggregate function
+Syntax:
+ALTER AGGREGATE name ( aggregate_signature ) RENAME TO new_name
+ALTER AGGREGATE name ( aggregate_signature )
+                OWNER TO { new_owner | CURRENT_USER | SESSION_USER }
+ALTER AGGREGATE name ( aggregate_signature ) SET SCHEMA new_schema
+
+where aggregate_signature is:
+
+* |
+[ argmode ] [ argname ] argtype [ , ... ] |
+[ [ argmode ] [ argname ] argtype [ , ... ] ] ORDER BY [ argmode ] [ argname ] argtype [ , ... ]
+
+URL: https://www.postgresql.org/docs/13/sql-alteraggregate.html
+

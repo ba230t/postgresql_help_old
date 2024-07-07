@@ -1,0 +1,9 @@
+Command:     CREATE ACCESS METHOD
+Description: define a new access method
+Syntax:
+CREATE ACCESS METHOD name
+    TYPE access_method_type
+    HANDLER handler_function
+
+URL: https://www.postgresql.org/docs/13/sql-create-access-method.html
+

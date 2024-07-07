@@ -1,0 +1,7 @@
+Command:     UNLISTEN
+Description: stop listening for a notification
+Syntax:
+UNLISTEN { channel | * }
+
+URL: https://www.postgresql.org/docs/12/sql-unlisten.html
+

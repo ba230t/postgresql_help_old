@@ -1,0 +1,5 @@
+Command:     ROLLBACK PREPARED
+Description: cancel a transaction that was earlier prepared for two-phase commit
+Syntax:
+ROLLBACK PREPARED transaction_id
+

@@ -1,0 +1,8 @@
+Command:     CLUSTER
+Description: cluster a table according to an index
+Syntax:
+CLUSTER [VERBOSE] table_name [ USING index_name ]
+CLUSTER [VERBOSE]
+
+URL: https://www.postgresql.org/docs/13/sql-cluster.html
+

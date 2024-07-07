@@ -1,0 +1,16 @@
+Command:     EXPLAIN
+Description: show the execution plan of a statement
+Syntax:
+EXPLAIN [ ( option [, ...] ) ] statement
+EXPLAIN [ ANALYZE ] [ VERBOSE ] statement
+
+where option can be one of:
+
+    ANALYZE [ boolean ]
+    VERBOSE [ boolean ]
+    COSTS [ boolean ]
+    BUFFERS [ boolean ]
+    TIMING [ boolean ]
+    SUMMARY [ boolean ]
+    FORMAT { TEXT | XML | JSON | YAML }
+

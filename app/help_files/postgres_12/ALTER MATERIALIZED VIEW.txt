@@ -1,0 +1,31 @@
+Command:     ALTER MATERIALIZED VIEW
+Description: change the definition of a materialized view
+Syntax:
+ALTER MATERIALIZED VIEW [ IF EXISTS ] name
+    action [, ... ]
+ALTER MATERIALIZED VIEW name
+    DEPENDS ON EXTENSION extension_name
+ALTER MATERIALIZED VIEW [ IF EXISTS ] name
+    RENAME [ COLUMN ] column_name TO new_column_name
+ALTER MATERIALIZED VIEW [ IF EXISTS ] name
+    RENAME TO new_name
+ALTER MATERIALIZED VIEW [ IF EXISTS ] name
+    SET SCHEMA new_schema
+ALTER MATERIALIZED VIEW ALL IN TABLESPACE name [ OWNED BY role_name [, ... ] ]
+    SET TABLESPACE new_tablespace [ NOWAIT ]
+
+where action is one of:
+
+    ALTER [ COLUMN ] column_name SET STATISTICS integer
+    ALTER [ COLUMN ] column_name SET ( attribute_option = value [, ... ] )
+    ALTER [ COLUMN ] column_name RESET ( attribute_option [, ... ] )
+    ALTER [ COLUMN ] column_name SET STORAGE { PLAIN | EXTERNAL | EXTENDED | MAIN }
+    CLUSTER ON index_name
+    SET WITHOUT CLUSTER
+    SET TABLESPACE new_tablespace
+    SET ( storage_parameter [= value] [, ... ] )
+    RESET ( storage_parameter [, ... ] )
+    OWNER TO { new_owner | CURRENT_USER | SESSION_USER }
+
+URL: https://www.postgresql.org/docs/12/sql-altermaterializedview.html
+

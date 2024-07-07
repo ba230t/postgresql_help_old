@@ -1,0 +1,8 @@
+Command:     CREATE CONVERSION
+Description: define a new encoding conversion
+Syntax:
+CREATE [ DEFAULT ] CONVERSION name
+    FOR source_encoding TO dest_encoding FROM function_name
+
+URL: https://www.postgresql.org/docs/14/sql-createconversion.html
+

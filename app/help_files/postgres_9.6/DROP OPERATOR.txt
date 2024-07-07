@@ -1,0 +1,5 @@
+Command:     DROP OPERATOR
+Description: remove an operator
+Syntax:
+DROP OPERATOR [ IF EXISTS ] name ( { left_type | NONE } , { right_type | NONE } ) [ CASCADE | RESTRICT ]
+

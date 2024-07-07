@@ -1,0 +1,5 @@
+Command:     DROP LANGUAGE
+Description: remove a procedural language
+Syntax:
+DROP [ PROCEDURAL ] LANGUAGE [ IF EXISTS ] name [ CASCADE | RESTRICT ]
+

@@ -1,0 +1,5 @@
+Command:     DROP FOREIGN TABLE
+Description: remove a foreign table
+Syntax:
+DROP FOREIGN TABLE [ IF EXISTS ] name [, ...] [ CASCADE | RESTRICT ]
+

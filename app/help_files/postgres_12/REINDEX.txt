@@ -1,0 +1,7 @@
+Command:     REINDEX
+Description: rebuild indexes
+Syntax:
+REINDEX [ ( VERBOSE ) ] { INDEX | TABLE | SCHEMA | DATABASE | SYSTEM } [ CONCURRENTLY ] name
+
+URL: https://www.postgresql.org/docs/12/sql-reindex.html
+

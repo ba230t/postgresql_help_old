@@ -1,0 +1,7 @@
+Command:     ROLLBACK
+Description: abort the current transaction
+Syntax:
+ROLLBACK [ WORK | TRANSACTION ] [ AND [ NO ] CHAIN ]
+
+URL: https://www.postgresql.org/docs/12/sql-rollback.html
+

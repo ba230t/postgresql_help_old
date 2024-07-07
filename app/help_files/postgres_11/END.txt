@@ -1,0 +1,5 @@
+Command:     END
+Description: commit the current transaction
+Syntax:
+END [ WORK | TRANSACTION ]
+

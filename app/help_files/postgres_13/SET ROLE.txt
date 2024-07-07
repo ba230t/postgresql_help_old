@@ -1,0 +1,9 @@
+Command:     SET ROLE
+Description: set the current user identifier of the current session
+Syntax:
+SET [ SESSION | LOCAL ] ROLE role_name
+SET [ SESSION | LOCAL ] ROLE NONE
+RESET ROLE
+
+URL: https://www.postgresql.org/docs/13/sql-set-role.html
+

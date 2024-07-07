@@ -1,0 +1,5 @@
+Command:     DROP TABLE
+Description: remove a table
+Syntax:
+DROP TABLE [ IF EXISTS ] name [, ...] [ CASCADE | RESTRICT ]
+

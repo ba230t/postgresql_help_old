@@ -1,0 +1,7 @@
+Command:     PREPARE TRANSACTION
+Description: prepare the current transaction for two-phase commit
+Syntax:
+PREPARE TRANSACTION transaction_id
+
+URL: https://www.postgresql.org/docs/14/sql-prepare-transaction.html
+

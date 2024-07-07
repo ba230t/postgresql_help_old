@@ -1,0 +1,5 @@
+Command:     CHECKPOINT
+Description: force a transaction log checkpoint
+Syntax:
+CHECKPOINT
+

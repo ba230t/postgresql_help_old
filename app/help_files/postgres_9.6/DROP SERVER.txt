@@ -1,0 +1,5 @@
+Command:     DROP SERVER
+Description: remove a foreign server descriptor
+Syntax:
+DROP SERVER [ IF EXISTS ] name [ CASCADE | RESTRICT ]
+

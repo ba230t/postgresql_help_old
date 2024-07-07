@@ -1,0 +1,5 @@
+Command:     DROP TRANSFORM
+Description: remove a transform
+Syntax:
+DROP TRANSFORM [ IF EXISTS ] FOR type_name LANGUAGE lang_name [ CASCADE | RESTRICT ]
+

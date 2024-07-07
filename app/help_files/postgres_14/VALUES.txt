@@ -1,0 +1,11 @@
+Command:     VALUES
+Description: compute a set of rows
+Syntax:
+VALUES ( expression [, ...] ) [, ...]
+    [ ORDER BY sort_expression [ ASC | DESC | USING operator ] [, ...] ]
+    [ LIMIT { count | ALL } ]
+    [ OFFSET start [ ROW | ROWS ] ]
+    [ FETCH { FIRST | NEXT } [ count ] { ROW | ROWS } ONLY ]
+
+URL: https://www.postgresql.org/docs/14/sql-values.html
+

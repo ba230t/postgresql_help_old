@@ -1,0 +1,6 @@
+Command:     DROP PROCEDURE
+Description: remove a procedure
+Syntax:
+DROP PROCEDURE [ IF EXISTS ] name [ ( [ [ argmode ] [ argname ] argtype [, ...] ] ) ] [, ...]
+    [ CASCADE | RESTRICT ]
+

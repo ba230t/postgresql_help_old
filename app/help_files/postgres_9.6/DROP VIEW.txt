@@ -1,0 +1,5 @@
+Command:     DROP VIEW
+Description: remove a view
+Syntax:
+DROP VIEW [ IF EXISTS ] name [, ...] [ CASCADE | RESTRICT ]
+

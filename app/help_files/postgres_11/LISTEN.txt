@@ -1,0 +1,5 @@
+Command:     LISTEN
+Description: listen for a notification
+Syntax:
+LISTEN channel
+

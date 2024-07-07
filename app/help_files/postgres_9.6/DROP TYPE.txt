@@ -1,0 +1,5 @@
+Command:     DROP TYPE
+Description: remove a data type
+Syntax:
+DROP TYPE [ IF EXISTS ] name [, ...] [ CASCADE | RESTRICT ]
+

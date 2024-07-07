@@ -1,0 +1,5 @@
+Command:     COMMIT
+Description: commit the current transaction
+Syntax:
+COMMIT [ WORK | TRANSACTION ]
+

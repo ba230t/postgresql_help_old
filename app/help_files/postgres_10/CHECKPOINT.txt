@@ -1,0 +1,5 @@
+Command:     CHECKPOINT
+Description: force a write-ahead log checkpoint
+Syntax:
+CHECKPOINT
+

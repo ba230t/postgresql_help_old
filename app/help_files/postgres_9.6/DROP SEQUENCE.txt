@@ -1,0 +1,5 @@
+Command:     DROP SEQUENCE
+Description: remove a sequence
+Syntax:
+DROP SEQUENCE [ IF EXISTS ] name [, ...] [ CASCADE | RESTRICT ]
+

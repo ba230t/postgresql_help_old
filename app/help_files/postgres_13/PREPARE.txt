@@ -1,0 +1,7 @@
+Command:     PREPARE
+Description: prepare a statement for execution
+Syntax:
+PREPARE name [ ( data_type [, ...] ) ] AS statement
+
+URL: https://www.postgresql.org/docs/13/sql-prepare.html
+

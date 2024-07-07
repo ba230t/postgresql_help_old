@@ -1,0 +1,14 @@
+Command:     ALTER SUBSCRIPTION
+Description: change the definition of a subscription
+Syntax:
+ALTER SUBSCRIPTION name CONNECTION 'conninfo'
+ALTER SUBSCRIPTION name SET PUBLICATION publication_name [, ...] [ WITH ( set_publication_option [= value] [, ... ] ) ]
+ALTER SUBSCRIPTION name REFRESH PUBLICATION [ WITH ( refresh_option [= value] [, ... ] ) ]
+ALTER SUBSCRIPTION name ENABLE
+ALTER SUBSCRIPTION name DISABLE
+ALTER SUBSCRIPTION name SET ( subscription_parameter [= value] [, ... ] )
+ALTER SUBSCRIPTION name OWNER TO { new_owner | CURRENT_USER | SESSION_USER }
+ALTER SUBSCRIPTION name RENAME TO new_name
+
+URL: https://www.postgresql.org/docs/13/sql-altersubscription.html
+

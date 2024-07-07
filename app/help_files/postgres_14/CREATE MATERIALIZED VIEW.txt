@@ -1,0 +1,13 @@
+Command:     CREATE MATERIALIZED VIEW
+Description: define a new materialized view
+Syntax:
+CREATE MATERIALIZED VIEW [ IF NOT EXISTS ] table_name
+    [ (column_name [, ...] ) ]
+    [ USING method ]
+    [ WITH ( storage_parameter [= value] [, ... ] ) ]
+    [ TABLESPACE tablespace_name ]
+    AS query
+    [ WITH [ NO ] DATA ]
+
+URL: https://www.postgresql.org/docs/14/sql-creatematerializedview.html
+

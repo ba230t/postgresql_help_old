@@ -1,0 +1,6 @@
+Command:     ALTER TEXT SEARCH PARSER
+Description: change the definition of a text search parser
+Syntax:
+ALTER TEXT SEARCH PARSER name RENAME TO new_name
+ALTER TEXT SEARCH PARSER name SET SCHEMA new_schema
+

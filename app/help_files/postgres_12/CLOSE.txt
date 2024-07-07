@@ -1,0 +1,7 @@
+Command:     CLOSE
+Description: close a cursor
+Syntax:
+CLOSE { name | ALL }
+
+URL: https://www.postgresql.org/docs/12/sql-close.html
+

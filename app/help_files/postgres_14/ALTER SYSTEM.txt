@@ -1,0 +1,10 @@
+Command:     ALTER SYSTEM
+Description: change a server configuration parameter
+Syntax:
+ALTER SYSTEM SET configuration_parameter { TO | = } { value [, ...] | DEFAULT }
+
+ALTER SYSTEM RESET configuration_parameter
+ALTER SYSTEM RESET ALL
+
+URL: https://www.postgresql.org/docs/14/sql-altersystem.html
+

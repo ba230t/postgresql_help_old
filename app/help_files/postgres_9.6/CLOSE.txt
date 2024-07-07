@@ -1,0 +1,5 @@
+Command:     CLOSE
+Description: close a cursor
+Syntax:
+CLOSE { name | ALL }
+

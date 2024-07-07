@@ -1,0 +1,5 @@
+Command:     DROP SUBSCRIPTION
+Description: remove a subscription
+Syntax:
+DROP SUBSCRIPTION [ IF EXISTS ] name [ CASCADE | RESTRICT ]
+

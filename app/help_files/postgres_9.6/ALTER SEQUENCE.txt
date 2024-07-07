@@ -1,0 +1,13 @@
+Command:     ALTER SEQUENCE
+Description: change the definition of a sequence generator
+Syntax:
+ALTER SEQUENCE [ IF EXISTS ] name [ INCREMENT [ BY ] increment ]
+    [ MINVALUE minvalue | NO MINVALUE ] [ MAXVALUE maxvalue | NO MAXVALUE ]
+    [ START [ WITH ] start ]
+    [ RESTART [ [ WITH ] restart ] ]
+    [ CACHE cache ] [ [ NO ] CYCLE ]
+    [ OWNED BY { table_name.column_name | NONE } ]
+ALTER SEQUENCE [ IF EXISTS ] name OWNER TO { new_owner | CURRENT_USER | SESSION_USER }
+ALTER SEQUENCE [ IF EXISTS ] name RENAME TO new_name
+ALTER SEQUENCE [ IF EXISTS ] name SET SCHEMA new_schema
+

@@ -1,0 +1,7 @@
+Command:     SET CONSTRAINTS
+Description: set constraint check timing for the current transaction
+Syntax:
+SET CONSTRAINTS { ALL | name [, ...] } { DEFERRED | IMMEDIATE }
+
+URL: https://www.postgresql.org/docs/14/sql-set-constraints.html
+

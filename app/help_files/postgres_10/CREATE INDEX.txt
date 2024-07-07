@@ -1,0 +1,9 @@
+Command:     CREATE INDEX
+Description: define a new index
+Syntax:
+CREATE [ UNIQUE ] INDEX [ CONCURRENTLY ] [ [ IF NOT EXISTS ] name ] ON table_name [ USING method ]
+    ( { column_name | ( expression ) } [ COLLATE collation ] [ opclass ] [ ASC | DESC ] [ NULLS { FIRST | LAST } ] [, ...] )
+    [ WITH ( storage_parameter [= value] [, ... ] ) ]
+    [ TABLESPACE tablespace_name ]
+    [ WHERE predicate ]
+

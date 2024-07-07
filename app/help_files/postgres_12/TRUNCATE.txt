@@ -1,0 +1,8 @@
+Command:     TRUNCATE
+Description: empty a table or set of tables
+Syntax:
+TRUNCATE [ TABLE ] [ ONLY ] name [ * ] [, ... ]
+    [ RESTART IDENTITY | CONTINUE IDENTITY ] [ CASCADE | RESTRICT ]
+
+URL: https://www.postgresql.org/docs/12/sql-truncate.html
+

@@ -1,0 +1,8 @@
+Command:     CREATE TEXT SEARCH DICTIONARY
+Description: define a new text search dictionary
+Syntax:
+CREATE TEXT SEARCH DICTIONARY name (
+    TEMPLATE = template
+    [, option = value [, ... ]]
+)
+

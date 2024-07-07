@@ -1,0 +1,8 @@
+Command:     RESET
+Description: restore the value of a run-time parameter to the default value
+Syntax:
+RESET configuration_parameter
+RESET ALL
+
+URL: https://www.postgresql.org/docs/12/sql-reset.html
+

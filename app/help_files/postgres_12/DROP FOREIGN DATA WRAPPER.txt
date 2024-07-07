@@ -1,0 +1,7 @@
+Command:     DROP FOREIGN DATA WRAPPER
+Description: remove a foreign-data wrapper
+Syntax:
+DROP FOREIGN DATA WRAPPER [ IF EXISTS ] name [, ...] [ CASCADE | RESTRICT ]
+
+URL: https://www.postgresql.org/docs/12/sql-dropforeigndatawrapper.html
+

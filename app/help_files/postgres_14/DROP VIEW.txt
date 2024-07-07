@@ -1,0 +1,7 @@
+Command:     DROP VIEW
+Description: remove a view
+Syntax:
+DROP VIEW [ IF EXISTS ] name [, ...] [ CASCADE | RESTRICT ]
+
+URL: https://www.postgresql.org/docs/14/sql-dropview.html
+

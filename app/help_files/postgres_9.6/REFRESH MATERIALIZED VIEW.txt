@@ -1,0 +1,6 @@
+Command:     REFRESH MATERIALIZED VIEW
+Description: replace the contents of a materialized view
+Syntax:
+REFRESH MATERIALIZED VIEW [ CONCURRENTLY ] name
+    [ WITH [ NO ] DATA ]
+

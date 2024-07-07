@@ -1,0 +1,17 @@
+Command:     ANALYZE
+Description: collect statistics about a database
+Syntax:
+ANALYZE [ ( option [, ...] ) ] [ table_and_columns [, ...] ]
+ANALYZE [ VERBOSE ] [ table_and_columns [, ...] ]
+
+where option can be one of:
+
+    VERBOSE [ boolean ]
+    SKIP_LOCKED [ boolean ]
+
+and table_and_columns is:
+
+    table_name [ ( column_name [, ...] ) ]
+
+URL: https://www.postgresql.org/docs/13/sql-analyze.html
+

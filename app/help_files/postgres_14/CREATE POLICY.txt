@@ -1,0 +1,12 @@
+Command:     CREATE POLICY
+Description: define a new row-level security policy for a table
+Syntax:
+CREATE POLICY name ON table_name
+    [ AS { PERMISSIVE | RESTRICTIVE } ]
+    [ FOR { ALL | SELECT | INSERT | UPDATE | DELETE } ]
+    [ TO { role_name | PUBLIC | CURRENT_ROLE | CURRENT_USER | SESSION_USER } [, ...] ]
+    [ USING ( using_expression ) ]
+    [ WITH CHECK ( check_expression ) ]
+
+URL: https://www.postgresql.org/docs/14/sql-createpolicy.html
+

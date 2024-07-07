@@ -1,0 +1,7 @@
+Command:     DROP EXTENSION
+Description: remove an extension
+Syntax:
+DROP EXTENSION [ IF EXISTS ] name [, ...] [ CASCADE | RESTRICT ]
+
+URL: https://www.postgresql.org/docs/12/sql-dropextension.html
+

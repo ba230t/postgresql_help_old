@@ -1,0 +1,24 @@
+Command:     VACUUM
+Description: garbage-collect and optionally analyze a database
+Syntax:
+VACUUM [ ( option [, ...] ) ] [ table_and_columns [, ...] ]
+VACUUM [ FULL ] [ FREEZE ] [ VERBOSE ] [ ANALYZE ] [ table_and_columns [, ...] ]
+
+where option can be one of:
+
+    FULL [ boolean ]
+    FREEZE [ boolean ]
+    VERBOSE [ boolean ]
+    ANALYZE [ boolean ]
+    DISABLE_PAGE_SKIPPING [ boolean ]
+    SKIP_LOCKED [ boolean ]
+    INDEX_CLEANUP [ boolean ]
+    TRUNCATE [ boolean ]
+    PARALLEL integer
+
+and table_and_columns is:
+
+    table_name [ ( column_name [, ...] ) ]
+
+URL: https://www.postgresql.org/docs/13/sql-vacuum.html
+

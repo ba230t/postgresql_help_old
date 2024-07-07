@@ -1,0 +1,6 @@
+Command:     SET
+Description: change a run-time parameter
+Syntax:
+SET [ SESSION | LOCAL ] configuration_parameter { TO | = } { value | 'value' | DEFAULT }
+SET [ SESSION | LOCAL ] TIME ZONE { timezone | LOCAL | DEFAULT }
+

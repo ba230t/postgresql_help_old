@@ -1,0 +1,5 @@
+Command:     CREATE OPERATOR FAMILY
+Description: define a new operator family
+Syntax:
+CREATE OPERATOR FAMILY name USING index_method
+

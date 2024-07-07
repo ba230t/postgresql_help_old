@@ -1,0 +1,8 @@
+Command:     SHOW
+Description: show the value of a run-time parameter
+Syntax:
+SHOW name
+SHOW ALL
+
+URL: https://www.postgresql.org/docs/14/sql-show.html
+

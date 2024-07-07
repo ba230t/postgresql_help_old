@@ -1,0 +1,7 @@
+Command:     COMMIT
+Description: commit the current transaction
+Syntax:
+COMMIT [ WORK | TRANSACTION ] [ AND [ NO ] CHAIN ]
+
+URL: https://www.postgresql.org/docs/12/sql-commit.html
+

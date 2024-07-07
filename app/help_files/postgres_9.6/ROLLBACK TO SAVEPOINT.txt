@@ -1,0 +1,5 @@
+Command:     ROLLBACK TO SAVEPOINT
+Description: roll back to a savepoint
+Syntax:
+ROLLBACK [ WORK | TRANSACTION ] TO [ SAVEPOINT ] savepoint_name
+

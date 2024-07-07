@@ -1,0 +1,8 @@
+Command:     CREATE EVENT TRIGGER
+Description: define a new event trigger
+Syntax:
+CREATE EVENT TRIGGER name
+    ON event
+    [ WHEN filter_variable IN (filter_value [, ... ]) [ AND ... ] ]
+    EXECUTE PROCEDURE function_name()
+

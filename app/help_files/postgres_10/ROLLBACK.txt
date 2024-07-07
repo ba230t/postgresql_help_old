@@ -1,0 +1,5 @@
+Command:     ROLLBACK
+Description: abort the current transaction
+Syntax:
+ROLLBACK [ WORK | TRANSACTION ]
+

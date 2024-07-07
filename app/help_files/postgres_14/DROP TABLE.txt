@@ -1,0 +1,7 @@
+Command:     DROP TABLE
+Description: remove a table
+Syntax:
+DROP TABLE [ IF EXISTS ] name [, ...] [ CASCADE | RESTRICT ]
+
+URL: https://www.postgresql.org/docs/14/sql-droptable.html
+

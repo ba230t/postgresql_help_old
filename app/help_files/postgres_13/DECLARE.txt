@@ -1,0 +1,8 @@
+Command:     DECLARE
+Description: define a cursor
+Syntax:
+DECLARE name [ BINARY ] [ INSENSITIVE ] [ [ NO ] SCROLL ]
+    CURSOR [ { WITH | WITHOUT } HOLD ] FOR query
+
+URL: https://www.postgresql.org/docs/13/sql-declare.html
+

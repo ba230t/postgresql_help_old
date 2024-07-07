@@ -1,0 +1,24 @@
+Command:     MOVE
+Description: position a cursor
+Syntax:
+MOVE [ direction ] [ FROM | IN ] cursor_name
+
+where direction can be one of:
+
+    NEXT
+    PRIOR
+    FIRST
+    LAST
+    ABSOLUTE count
+    RELATIVE count
+    count
+    ALL
+    FORWARD
+    FORWARD count
+    FORWARD ALL
+    BACKWARD
+    BACKWARD count
+    BACKWARD ALL
+
+URL: https://www.postgresql.org/docs/12/sql-move.html
+

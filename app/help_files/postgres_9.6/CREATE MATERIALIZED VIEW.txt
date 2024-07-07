@@ -1,0 +1,10 @@
+Command:     CREATE MATERIALIZED VIEW
+Description: define a new materialized view
+Syntax:
+CREATE MATERIALIZED VIEW [ IF NOT EXISTS ] table_name
+    [ (column_name [, ...] ) ]
+    [ WITH ( storage_parameter [= value] [, ... ] ) ]
+    [ TABLESPACE tablespace_name ]
+    AS query
+    [ WITH [ NO ] DATA ]
+

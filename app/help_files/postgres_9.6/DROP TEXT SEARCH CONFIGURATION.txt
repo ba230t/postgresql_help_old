@@ -1,0 +1,5 @@
+Command:     DROP TEXT SEARCH CONFIGURATION
+Description: remove a text search configuration
+Syntax:
+DROP TEXT SEARCH CONFIGURATION [ IF EXISTS ] name [ CASCADE | RESTRICT ]
+

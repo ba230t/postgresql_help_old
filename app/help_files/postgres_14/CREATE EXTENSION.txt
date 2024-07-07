@@ -1,0 +1,10 @@
+Command:     CREATE EXTENSION
+Description: install an extension
+Syntax:
+CREATE EXTENSION [ IF NOT EXISTS ] extension_name
+    [ WITH ] [ SCHEMA schema_name ]
+             [ VERSION version ]
+             [ CASCADE ]
+
+URL: https://www.postgresql.org/docs/14/sql-createextension.html
+

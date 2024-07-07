@@ -1,0 +1,34 @@
+Command:     CREATE FOREIGN TABLE
+Description: define a new foreign table
+Syntax:
+CREATE FOREIGN TABLE [ IF NOT EXISTS ] table_name ( [
+  { column_name data_type [ OPTIONS ( option 'value' [, ... ] ) ] [ COLLATE collation ] [ column_constraint [ ... ] ]
+    | table_constraint }
+    [, ... ]
+] )
+[ INHERITS ( parent_table [, ... ] ) ]
+  SERVER server_name
+[ OPTIONS ( option 'value' [, ... ] ) ]
+
+CREATE FOREIGN TABLE [ IF NOT EXISTS ] table_name
+  PARTITION OF parent_table [ (
+  { column_name [ WITH OPTIONS ] [ column_constraint [ ... ] ]
+    | table_constraint }
+    [, ... ]
+) ] partition_bound_spec
+  SERVER server_name
+[ OPTIONS ( option 'value' [, ... ] ) ]
+
+where column_constraint is:
+
+[ CONSTRAINT constraint_name ]
+{ NOT NULL |
+  NULL |
+  CHECK ( expression ) [ NO INHERIT ] |
+  DEFAULT default_expr }
+
+and table_constraint is:
+
+[ CONSTRAINT constraint_name ]
+CHECK ( expression ) [ NO INHERIT ]
+

@@ -1,0 +1,7 @@
+Command:     LOAD
+Description: load a shared library file
+Syntax:
+LOAD 'filename'
+
+URL: https://www.postgresql.org/docs/14/sql-load.html
+

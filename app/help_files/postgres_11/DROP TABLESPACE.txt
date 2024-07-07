@@ -1,0 +1,5 @@
+Command:     DROP TABLESPACE
+Description: remove a tablespace
+Syntax:
+DROP TABLESPACE [ IF EXISTS ] name
+

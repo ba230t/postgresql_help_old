@@ -1,0 +1,6 @@
+Command:     DECLARE
+Description: define a cursor
+Syntax:
+DECLARE name [ BINARY ] [ INSENSITIVE ] [ [ NO ] SCROLL ]
+    CURSOR [ { WITH | WITHOUT } HOLD ] FOR query
+

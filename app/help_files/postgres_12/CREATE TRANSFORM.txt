@@ -1,0 +1,10 @@
+Command:     CREATE TRANSFORM
+Description: define a new transform
+Syntax:
+CREATE [ OR REPLACE ] TRANSFORM FOR type_name LANGUAGE lang_name (
+    FROM SQL WITH FUNCTION from_sql_function_name [ (argument_type [, ...]) ],
+    TO SQL WITH FUNCTION to_sql_function_name [ (argument_type [, ...]) ]
+);
+
+URL: https://www.postgresql.org/docs/12/sql-createtransform.html
+

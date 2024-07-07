@@ -1,0 +1,7 @@
+Command:     DO
+Description: execute an anonymous code block
+Syntax:
+DO [ LANGUAGE lang_name ] code
+
+URL: https://www.postgresql.org/docs/14/sql-do.html
+

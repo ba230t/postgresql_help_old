@@ -1,0 +1,43 @@
+Command:     CREATE TEXT SEARCH CONFIGURATION
+Description: define a new text search configuration
+Syntax:
+CREATE TEXT SEARCH CONFIGURATION name (
+    PARSER = parser_name |
+    COPY = source_config
+)
+
+URL: https://www.postgresql.org/docs/12/sql-createtsconfig.html
+
+Command:     CREATE TEXT SEARCH DICTIONARY
+Description: define a new text search dictionary
+Syntax:
+CREATE TEXT SEARCH DICTIONARY name (
+    TEMPLATE = template
+    [, option = value [, ... ]]
+)
+
+URL: https://www.postgresql.org/docs/12/sql-createtsdictionary.html
+
+Command:     CREATE TEXT SEARCH PARSER
+Description: define a new text search parser
+Syntax:
+CREATE TEXT SEARCH PARSER name (
+    START = start_function ,
+    GETTOKEN = gettoken_function ,
+    END = end_function ,
+    LEXTYPES = lextypes_function
+    [, HEADLINE = headline_function ]
+)
+
+URL: https://www.postgresql.org/docs/12/sql-createtsparser.html
+
+Command:     CREATE TEXT SEARCH TEMPLATE
+Description: define a new text search template
+Syntax:
+CREATE TEXT SEARCH TEMPLATE name (
+    [ INIT = init_function , ]
+    LEXIZE = lexize_function
+)
+
+URL: https://www.postgresql.org/docs/12/sql-createtstemplate.html
+

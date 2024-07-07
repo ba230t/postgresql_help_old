@@ -1,0 +1,5 @@
+Command:     DROP EXTENSION
+Description: remove an extension
+Syntax:
+DROP EXTENSION [ IF EXISTS ] name [, ...] [ CASCADE | RESTRICT ]
+

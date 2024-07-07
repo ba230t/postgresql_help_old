@@ -1,0 +1,5 @@
+Command:     DROP DATABASE
+Description: remove a database
+Syntax:
+DROP DATABASE [ IF EXISTS ] name
+

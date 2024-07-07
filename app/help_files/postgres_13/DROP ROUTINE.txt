@@ -1,0 +1,8 @@
+Command:     DROP ROUTINE
+Description: remove a routine
+Syntax:
+DROP ROUTINE [ IF EXISTS ] name [ ( [ [ argmode ] [ argname ] argtype [, ...] ] ) ] [, ...]
+    [ CASCADE | RESTRICT ]
+
+URL: https://www.postgresql.org/docs/13/sql-droproutine.html
+

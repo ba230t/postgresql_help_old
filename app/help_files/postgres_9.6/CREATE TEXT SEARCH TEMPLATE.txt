@@ -1,0 +1,8 @@
+Command:     CREATE TEXT SEARCH TEMPLATE
+Description: define a new text search template
+Syntax:
+CREATE TEXT SEARCH TEMPLATE name (
+    [ INIT = init_function , ]
+    LEXIZE = lexize_function
+)
+

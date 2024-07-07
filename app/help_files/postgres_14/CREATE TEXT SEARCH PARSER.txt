@@ -1,0 +1,13 @@
+Command:     CREATE TEXT SEARCH PARSER
+Description: define a new text search parser
+Syntax:
+CREATE TEXT SEARCH PARSER name (
+    START = start_function ,
+    GETTOKEN = gettoken_function ,
+    END = end_function ,
+    LEXTYPES = lextypes_function
+    [, HEADLINE = headline_function ]
+)
+
+URL: https://www.postgresql.org/docs/14/sql-createtsparser.html
+

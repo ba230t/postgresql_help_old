@@ -1,0 +1,5 @@
+Command:     DROP DOMAIN
+Description: remove a domain
+Syntax:
+DROP DOMAIN [ IF EXISTS ] name [, ...] [ CASCADE | RESTRICT ]
+

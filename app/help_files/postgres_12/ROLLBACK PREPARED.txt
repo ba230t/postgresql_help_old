@@ -1,0 +1,7 @@
+Command:     ROLLBACK PREPARED
+Description: cancel a transaction that was earlier prepared for two-phase commit
+Syntax:
+ROLLBACK PREPARED transaction_id
+
+URL: https://www.postgresql.org/docs/12/sql-rollback-prepared.html
+

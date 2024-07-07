@@ -1,0 +1,5 @@
+Command:     DISCARD
+Description: discard session state
+Syntax:
+DISCARD { ALL | PLANS | SEQUENCES | TEMPORARY | TEMP }
+

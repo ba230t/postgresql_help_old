@@ -1,0 +1,8 @@
+Command:     CREATE TABLESPACE
+Description: define a new tablespace
+Syntax:
+CREATE TABLESPACE tablespace_name
+    [ OWNER { new_owner | CURRENT_USER | SESSION_USER } ]
+    LOCATION 'directory'
+    [ WITH ( tablespace_option = value [, ... ] ) ]
+

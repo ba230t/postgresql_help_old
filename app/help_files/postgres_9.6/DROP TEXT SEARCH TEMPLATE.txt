@@ -1,0 +1,5 @@
+Command:     DROP TEXT SEARCH TEMPLATE
+Description: remove a text search template
+Syntax:
+DROP TEXT SEARCH TEMPLATE [ IF EXISTS ] name [ CASCADE | RESTRICT ]
+

@@ -1,0 +1,5 @@
+Command:     DROP RULE
+Description: remove a rewrite rule
+Syntax:
+DROP RULE [ IF EXISTS ] name ON table_name [ CASCADE | RESTRICT ]
+

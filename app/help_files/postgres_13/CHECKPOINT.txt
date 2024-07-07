@@ -1,0 +1,7 @@
+Command:     CHECKPOINT
+Description: force a write-ahead log checkpoint
+Syntax:
+CHECKPOINT
+
+URL: https://www.postgresql.org/docs/13/sql-checkpoint.html
+

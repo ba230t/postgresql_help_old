@@ -1,0 +1,5 @@
+Command:     DROP STATISTICS
+Description: remove extended statistics
+Syntax:
+DROP STATISTICS [ IF EXISTS ] name [, ...] [ CASCADE | RESTRICT ]
+

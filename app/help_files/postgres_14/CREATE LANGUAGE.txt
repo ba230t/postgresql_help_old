@@ -1,0 +1,9 @@
+Command:     CREATE LANGUAGE
+Description: define a new procedural language
+Syntax:
+CREATE [ OR REPLACE ] [ TRUSTED ] [ PROCEDURAL ] LANGUAGE name
+    HANDLER call_handler [ INLINE inline_handler ] [ VALIDATOR valfunction ]
+CREATE [ OR REPLACE ] [ TRUSTED ] [ PROCEDURAL ] LANGUAGE name
+
+URL: https://www.postgresql.org/docs/14/sql-createlanguage.html
+

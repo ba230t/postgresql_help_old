@@ -1,0 +1,11 @@
+Command:     CREATE TABLE AS
+Description: define a new table from the results of a query
+Syntax:
+CREATE [ [ GLOBAL | LOCAL ] { TEMPORARY | TEMP } | UNLOGGED ] TABLE [ IF NOT EXISTS ] table_name
+    [ (column_name [, ...] ) ]
+    [ WITH ( storage_parameter [= value] [, ... ] ) | WITH OIDS | WITHOUT OIDS ]
+    [ ON COMMIT { PRESERVE ROWS | DELETE ROWS | DROP } ]
+    [ TABLESPACE tablespace_name ]
+    AS query
+    [ WITH [ NO ] DATA ]
+

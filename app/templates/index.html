@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>PostgreSQL Help Comparer</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .container { width: 80%; margin: auto; }
+        textarea { width: 100%; height: 300px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>PostgreSQL Help Comparer</h1>
+        <form method="post" action="/compare">
+            <h2>Select Versions</h2>
+            {% for version in versions %}
+                <div>
+                    <input type="checkbox" id="{{ version }}" name="versions" value="{{ version }}">
+                    <label for="{{ version }}">{{ version }}</label>
+                </div>
+            {% endfor %}
+            <button type="submit">Compare</button>
+        </form>
+        {% if diff_results %}
+            <h2>Comparison Results</h2>
+            <textarea readonly>{{ diff_results }}</textarea>
+        {% endif %}
+    </div>
+</body>
+</html>

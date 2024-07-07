@@ -1,0 +1,7 @@
+Command:     DROP CONVERSION
+Description: remove a conversion
+Syntax:
+DROP CONVERSION [ IF EXISTS ] name [ CASCADE | RESTRICT ]
+
+URL: https://www.postgresql.org/docs/12/sql-dropconversion.html
+

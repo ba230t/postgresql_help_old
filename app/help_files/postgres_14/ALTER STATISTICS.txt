@@ -1,0 +1,10 @@
+Command:     ALTER STATISTICS
+Description: change the definition of an extended statistics object
+Syntax:
+ALTER STATISTICS name OWNER TO { new_owner | CURRENT_ROLE | CURRENT_USER | SESSION_USER }
+ALTER STATISTICS name RENAME TO new_name
+ALTER STATISTICS name SET SCHEMA new_schema
+ALTER STATISTICS name SET STATISTICS new_target
+
+URL: https://www.postgresql.org/docs/14/sql-alterstatistics.html
+

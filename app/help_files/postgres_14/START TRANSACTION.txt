@@ -1,0 +1,13 @@
+Command:     START TRANSACTION
+Description: start a transaction block
+Syntax:
+START TRANSACTION [ transaction_mode [, ...] ]
+
+where transaction_mode is one of:
+
+    ISOLATION LEVEL { SERIALIZABLE | REPEATABLE READ | READ COMMITTED | READ UNCOMMITTED }
+    READ WRITE | READ ONLY
+    [ NOT ] DEFERRABLE
+
+URL: https://www.postgresql.org/docs/14/sql-start-transaction.html
+

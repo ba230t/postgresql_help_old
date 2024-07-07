@@ -1,0 +1,11 @@
+Command:     DROP DATABASE
+Description: remove a database
+Syntax:
+DROP DATABASE [ IF EXISTS ] name [ [ WITH ] ( option [, ...] ) ]
+
+where option can be:
+
+    FORCE
+
+URL: https://www.postgresql.org/docs/14/sql-dropdatabase.html
+

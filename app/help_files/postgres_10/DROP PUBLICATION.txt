@@ -1,0 +1,5 @@
+Command:     DROP PUBLICATION
+Description: remove a publication
+Syntax:
+DROP PUBLICATION [ IF EXISTS ] name [, ...] [ CASCADE | RESTRICT ]
+

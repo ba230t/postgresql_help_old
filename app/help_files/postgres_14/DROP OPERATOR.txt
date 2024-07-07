@@ -1,0 +1,7 @@
+Command:     DROP OPERATOR
+Description: remove an operator
+Syntax:
+DROP OPERATOR [ IF EXISTS ] name ( { left_type | NONE } , right_type ) [, ...] [ CASCADE | RESTRICT ]
+
+URL: https://www.postgresql.org/docs/14/sql-dropoperator.html
+

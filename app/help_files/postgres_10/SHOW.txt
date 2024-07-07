@@ -1,0 +1,6 @@
+Command:     SHOW
+Description: show the value of a run-time parameter
+Syntax:
+SHOW name
+SHOW ALL
+

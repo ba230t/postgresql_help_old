@@ -1,0 +1,5 @@
+Command:     RELEASE SAVEPOINT
+Description: destroy a previously defined savepoint
+Syntax:
+RELEASE [ SAVEPOINT ] savepoint_name
+

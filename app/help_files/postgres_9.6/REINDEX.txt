@@ -1,0 +1,5 @@
+Command:     REINDEX
+Description: rebuild indexes
+Syntax:
+REINDEX [ ( VERBOSE ) ] { INDEX | TABLE | SCHEMA | DATABASE | SYSTEM } name
+

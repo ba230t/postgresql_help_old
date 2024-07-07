@@ -1,0 +1,7 @@
+Command:     DROP OWNED
+Description: remove database objects owned by a database role
+Syntax:
+DROP OWNED BY { name | CURRENT_ROLE | CURRENT_USER | SESSION_USER } [, ...] [ CASCADE | RESTRICT ]
+
+URL: https://www.postgresql.org/docs/14/sql-drop-owned.html
+

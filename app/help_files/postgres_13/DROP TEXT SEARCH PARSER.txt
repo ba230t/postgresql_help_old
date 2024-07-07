@@ -1,0 +1,7 @@
+Command:     DROP TEXT SEARCH PARSER
+Description: remove a text search parser
+Syntax:
+DROP TEXT SEARCH PARSER [ IF EXISTS ] name [ CASCADE | RESTRICT ]
+
+URL: https://www.postgresql.org/docs/13/sql-droptsparser.html
+

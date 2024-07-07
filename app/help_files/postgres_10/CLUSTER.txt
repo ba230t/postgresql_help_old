@@ -1,0 +1,6 @@
+Command:     CLUSTER
+Description: cluster a table according to an index
+Syntax:
+CLUSTER [VERBOSE] table_name [ USING index_name ]
+CLUSTER [VERBOSE]
+

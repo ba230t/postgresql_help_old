@@ -1,0 +1,5 @@
+Command:     DROP CONVERSION
+Description: remove a conversion
+Syntax:
+DROP CONVERSION [ IF EXISTS ] name [ CASCADE | RESTRICT ]
+

@@ -1,0 +1,10 @@
+Command:     CREATE COLLATION
+Description: define a new collation
+Syntax:
+CREATE COLLATION name (
+    [ LOCALE = locale, ]
+    [ LC_COLLATE = lc_collate, ]
+    [ LC_CTYPE = lc_ctype ]
+)
+CREATE COLLATION name FROM existing_collation
+

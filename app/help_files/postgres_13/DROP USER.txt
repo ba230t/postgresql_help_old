@@ -1,0 +1,7 @@
+Command:     DROP USER
+Description: remove a database role
+Syntax:
+DROP USER [ IF EXISTS ] name [, ...]
+
+URL: https://www.postgresql.org/docs/13/sql-dropuser.html
+

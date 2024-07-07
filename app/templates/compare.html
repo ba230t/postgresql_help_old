@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>PostgreSQL Help Comparer - Results</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .container { width: 95%; margin: auto; }
+        .diff-container { display: flex; flex-wrap: wrap; margin-bottom: 20px; }
+        .version-column { flex: 1; min-width: 300px; margin: 5px; }
+        .diff-content { width: 100%; height: 200px; overflow: auto; border: 1px solid #ccc; }
+        pre { margin: 0; white-space: pre-wrap; word-wrap: break-word; }
+        h2 { margin-top: 30px; }
+        .controls { margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>PostgreSQL Help Comparison Results</h1>
+        <a href="/">Back to Version Selection</a>
+        <div class="controls">
+            <label>
+                <input type="checkbox" id="show-diff-only" onchange="toggleDiffOnly()">
+                Show only differences
+            </label>
+        </div>
+        {% for command, contents in diff_results.items() %}
+            <h2>{{ command }}</h2>
+            <div class="diff-container" data-command="{{ command }}">
+                {% for version in versions %}
+                    <div class="version-column">
+                        <h3>{{ version }}</h3>
+                        <div class="diff-content" data-version="{{ version }}">{{ contents[version]|safe }}</div>
+                    </div>
+                {% endfor %}
+            </div>
+        {% endfor %}
+    </div>
+    <script>
+        // For the "Show only differences" checkbox
+        function toggleDiffOnly() {
+            const showDiffOnly = document.getElementById('show-diff-only').checked;
+            const unchangedLines = document.querySelectorAll('.unchanged');
+
+            unchangedLines.forEach(line => {
+                if (showDiffOnly) {
+                    line.style.display = 'none';
+                } else {
+                    line.style.display = '';
+                }
+            });
+        }
+
+        // For the scroll synchronization
+        function syncScroll(command) {
+            const container = document.querySelector(`.diff-container[data-command="${command}"]`);
+            const diffContents = container.querySelectorAll('.diff-content');
+
+            diffContents.forEach(content => {
+                content.addEventListener('scroll', function() {
+                    const scrollPosition = this.scrollTop;
+                    diffContents.forEach(otherContent => {
+                        if (otherContent !== this) {
+                            otherContent.scrollTop = scrollPosition;
+                        }
+                    });
+                });
+            });
+        }
+
+        // Enable the syncScroll
+        document.querySelectorAll('.diff-container').forEach(container => {
+            const command = container.dataset.command;
+            syncScroll(command);
+        });
+    </script>
+</body>
+</html>

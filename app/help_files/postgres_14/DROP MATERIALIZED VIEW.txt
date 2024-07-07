@@ -1,0 +1,7 @@
+Command:     DROP MATERIALIZED VIEW
+Description: remove a materialized view
+Syntax:
+DROP MATERIALIZED VIEW [ IF EXISTS ] name [, ...] [ CASCADE | RESTRICT ]
+
+URL: https://www.postgresql.org/docs/14/sql-dropmaterializedview.html
+

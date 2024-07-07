@@ -1,0 +1,7 @@
+Command:     VACUUM
+Description: garbage-collect and optionally analyze a database
+Syntax:
+VACUUM [ ( { FULL | FREEZE | VERBOSE | ANALYZE | DISABLE_PAGE_SKIPPING } [, ...] ) ] [ table_name [ (column_name [, ...] ) ] ]
+VACUUM [ FULL ] [ FREEZE ] [ VERBOSE ] [ table_name ]
+VACUUM [ FULL ] [ FREEZE ] [ VERBOSE ] ANALYZE [ table_name [ (column_name [, ...] ) ] ]
+

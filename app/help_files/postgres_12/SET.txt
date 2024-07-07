@@ -1,0 +1,8 @@
+Command:     SET
+Description: change a run-time parameter
+Syntax:
+SET [ SESSION | LOCAL ] configuration_parameter { TO | = } { value | 'value' | DEFAULT }
+SET [ SESSION | LOCAL ] TIME ZONE { value | 'value' | LOCAL | DEFAULT }
+
+URL: https://www.postgresql.org/docs/12/sql-set.html
+

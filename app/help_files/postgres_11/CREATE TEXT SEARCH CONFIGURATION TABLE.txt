@@ -1,0 +1,35 @@
+Command:     CREATE TEXT SEARCH CONFIGURATION
+Description: define a new text search configuration
+Syntax:
+CREATE TEXT SEARCH CONFIGURATION name (
+    PARSER = parser_name |
+    COPY = source_config
+)
+
+Command:     CREATE TEXT SEARCH DICTIONARY
+Description: define a new text search dictionary
+Syntax:
+CREATE TEXT SEARCH DICTIONARY name (
+    TEMPLATE = template
+    [, option = value [, ... ]]
+)
+
+Command:     CREATE TEXT SEARCH PARSER
+Description: define a new text search parser
+Syntax:
+CREATE TEXT SEARCH PARSER name (
+    START = start_function ,
+    GETTOKEN = gettoken_function ,
+    END = end_function ,
+    LEXTYPES = lextypes_function
+    [, HEADLINE = headline_function ]
+)
+
+Command:     CREATE TEXT SEARCH TEMPLATE
+Description: define a new text search template
+Syntax:
+CREATE TEXT SEARCH TEMPLATE name (
+    [ INIT = init_function , ]
+    LEXIZE = lexize_function
+)
+

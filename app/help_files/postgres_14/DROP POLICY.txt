@@ -1,0 +1,7 @@
+Command:     DROP POLICY
+Description: remove a row-level security policy from a table
+Syntax:
+DROP POLICY [ IF EXISTS ] name ON table_name [ CASCADE | RESTRICT ]
+
+URL: https://www.postgresql.org/docs/14/sql-droppolicy.html
+

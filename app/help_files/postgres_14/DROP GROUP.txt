@@ -1,0 +1,7 @@
+Command:     DROP GROUP
+Description: remove a database role
+Syntax:
+DROP GROUP [ IF EXISTS ] name [, ...]
+
+URL: https://www.postgresql.org/docs/14/sql-dropgroup.html
+

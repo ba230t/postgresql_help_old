@@ -1,0 +1,7 @@
+Command:     DROP SEQUENCE
+Description: remove a sequence
+Syntax:
+DROP SEQUENCE [ IF EXISTS ] name [, ...] [ CASCADE | RESTRICT ]
+
+URL: https://www.postgresql.org/docs/12/sql-dropsequence.html
+

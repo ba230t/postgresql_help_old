@@ -1,0 +1,7 @@
+Command:     SAVEPOINT
+Description: define a new savepoint within the current transaction
+Syntax:
+SAVEPOINT savepoint_name
+
+URL: https://www.postgresql.org/docs/14/sql-savepoint.html
+

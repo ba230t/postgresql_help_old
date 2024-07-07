@@ -1,0 +1,12 @@
+Command:     ALTER PUBLICATION
+Description: change the definition of a publication
+Syntax:
+ALTER PUBLICATION name ADD TABLE [ ONLY ] table_name [ * ] [, ...]
+ALTER PUBLICATION name SET TABLE [ ONLY ] table_name [ * ] [, ...]
+ALTER PUBLICATION name DROP TABLE [ ONLY ] table_name [ * ] [, ...]
+ALTER PUBLICATION name SET ( publication_parameter [= value] [, ... ] )
+ALTER PUBLICATION name OWNER TO { new_owner | CURRENT_USER | SESSION_USER }
+ALTER PUBLICATION name RENAME TO new_name
+
+URL: https://www.postgresql.org/docs/12/sql-alterpublication.html
+

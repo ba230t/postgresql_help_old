@@ -1,0 +1,17 @@
+Command:     CREATE CAST
+Description: define a new cast
+Syntax:
+CREATE CAST (source_type AS target_type)
+    WITH FUNCTION function_name [ (argument_type [, ...]) ]
+    [ AS ASSIGNMENT | AS IMPLICIT ]
+
+CREATE CAST (source_type AS target_type)
+    WITHOUT FUNCTION
+    [ AS ASSIGNMENT | AS IMPLICIT ]
+
+CREATE CAST (source_type AS target_type)
+    WITH INOUT
+    [ AS ASSIGNMENT | AS IMPLICIT ]
+
+URL: https://www.postgresql.org/docs/12/sql-createcast.html
+

@@ -1,0 +1,24 @@
+Command:     FETCH
+Description: retrieve rows from a query using a cursor
+Syntax:
+FETCH [ direction ] [ FROM | IN ] cursor_name
+
+where direction can be one of:
+
+    NEXT
+    PRIOR
+    FIRST
+    LAST
+    ABSOLUTE count
+    RELATIVE count
+    count
+    ALL
+    FORWARD
+    FORWARD count
+    FORWARD ALL
+    BACKWARD
+    BACKWARD count
+    BACKWARD ALL
+
+URL: https://www.postgresql.org/docs/14/sql-fetch.html
+

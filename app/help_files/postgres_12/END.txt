@@ -1,0 +1,7 @@
+Command:     END
+Description: commit the current transaction
+Syntax:
+END [ WORK | TRANSACTION ] [ AND [ NO ] CHAIN ]
+
+URL: https://www.postgresql.org/docs/12/sql-end.html
+

@@ -1,0 +1,7 @@
+Command:     DROP STATISTICS
+Description: remove extended statistics
+Syntax:
+DROP STATISTICS [ IF EXISTS ] name [, ...] [ CASCADE | RESTRICT ]
+
+URL: https://www.postgresql.org/docs/13/sql-dropstatistics.html
+

@@ -1,0 +1,7 @@
+Command:     DROP TRIGGER
+Description: remove a trigger
+Syntax:
+DROP TRIGGER [ IF EXISTS ] name ON table_name [ CASCADE | RESTRICT ]
+
+URL: https://www.postgresql.org/docs/12/sql-droptrigger.html
+
